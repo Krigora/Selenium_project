@@ -31,8 +31,8 @@ public class HWP2_Zerobank_XPATH_CSS {
         if(actualHeader.equals(expectedHeader)){
             System.out.println("Header text value PASSED!");
         }else{
-            System.out.println("Header text value FAILED!!!");
 
+            System.out.println("Header text value FAILED!!!");
         }
         driver.quit();
     }
