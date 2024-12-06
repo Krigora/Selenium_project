@@ -1,0 +1,32 @@
+day6_7 Live Review Tasks
+
+Topics: Alert, Iframe, Windows Handle, Soft Assertions
+
+// TC : Alert practice
+    // 1. Open browser
+    // 2. Go to website: https://practice.cydeo.com/javascript_alerts
+    // 3. Click to “Click for JS Prompt” button
+    // 4. Send “hello” text to alert
+    // 5. Click to OK button from the alert
+    // 6. Verify “You entered: hello” text is displayed.
+
+----------------------------------------------------------------
+
+// TC : Iframe practice
+    // 1. Users are already login and on the homepage of CRM app (You can use CRM_Utilities class)
+    // 2. Users click the MESSAGE tab
+    // 3. Users write test message
+    // 4. Users click the SEND button
+    // 5. Verify the message is displayed on the feed
+
+----------------------------------------------------------------
+
+// TC : Windows handle practice
+    //    1. Open browser
+    //    2. Go to website: https://demoqa.com/browser-windows
+    //    3. Click on New Tab button
+    //    4. Click on New Window button
+    //    5. Click on New Window Message button
+    //    6. Print out each window title
+
+----------------------------------------------------------------

@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+
 // TASK: NEW METHOD CREATION
 // Method name : getDriver
 // Static method
@@ -24,7 +25,6 @@ public class WebDriverFactory {
 
             //   WebDriverManager.firefoxdriver().setup();
             return new FirefoxDriver();
-
         } else if (browserType.equalsIgnoreCase("safari")) {
             return new SafariDriver();
 

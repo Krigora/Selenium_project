@@ -28,6 +28,7 @@ public class T3_radio_button_utility_method {
 
 
     }
+
     /*
 Create a utility method to handle above logic.
 Method name: clickAndVerifyRadioButton
@@ -40,7 +41,7 @@ Method should loop through the given group of radio buttons.
 When it finds the matching option, it should click and verify option is Selected.
 Print out verification: true
  */
-    private static void clickAndVerifyRadioButton(WebDriver driver, String nameAttribute, String expectedID){
+    private static void clickAndVerifyRadioButton(WebDriver driver, String nameAttribute, String expectedID) {
 
         //Locate all-of-the 'sports' radio buttons, and store them in a List<WebElement>
         //List<WebElement> sportsRadioButtons = driver.findElements(By.xpath("//input[@name='"+nameAttribute+"']"));
@@ -50,13 +51,15 @@ Print out verification: true
             String actualID = each.getAttribute("id");
             System.out.println("actualID = " + actualID);
 
-            if (actualID.equals(expectedID)){
+            if (actualID.equals(expectedID)) {
                 each.click();
-                System.out.println(actualID + " is Selected: " + each.isSelected() );
+                System.out.println(actualID + " is Selected: " + each.isSelected());
                 break;
             }
         }
 
+
     }
+
 
 }
